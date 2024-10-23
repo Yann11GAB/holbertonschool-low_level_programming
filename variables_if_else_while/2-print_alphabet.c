@@ -6,13 +6,7 @@
 int main(void)
 {
 char alphabet = 'a';
-while(alphabet <= 'z')
-{
-putchar(alphabet);
-alphabet++;
-}
-alphabet = 'A';
-while(alphabet <= 'Z')
+while (alphabet <= 'z')
 {
 putchar(alphabet);
 alphabet++;
