@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - main block
  * Return: 0
  */
 int main(void)
 {
 char a = '0';
-while (a <= 10)
+while (a <= '9')
 {
 putchar(a);
 a++;
