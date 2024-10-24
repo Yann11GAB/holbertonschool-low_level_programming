@@ -5,10 +5,11 @@
  */
 int main(void)
 {
-int num;
-for (num = 0; num < 10; num++)
+char a = '0';
+while (a <= '9')
 {
-putchar(num + '0');
+putchar(a);
+a++;
 }
 putchar('\n');
 return (0);
