@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry Point
+ * main - main block
  * Return: 0
  */
 int main(void)
@@ -14,4 +14,5 @@ putchar(n);
 
 putchar('\n');
 return (0);
+
 }
