@@ -1,16 +1,18 @@
 #include <stdio.h>
 /**
- *  * main - main block
- *   * Return: 0
+ * main - main block
+ * Return: 0
  */
 int main(void)
 {
-char a = '0';
-while (a <= 16)
-{
-putchar(a);
-a++;
-}
+int n;
+
+for (n = 0; n <= 9; n++)
+putchar(n + 0);
+
+for (n = 'a'; n <= 'f'; n++)
+putchar(n);
+
 putchar('\n');
 return (0);
 }
