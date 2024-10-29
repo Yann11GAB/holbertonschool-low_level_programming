@@ -18,9 +18,8 @@ _putchar(c % 10 + '0');
 }
 else
 {
-_putchar(c + '0');
-}
 _putchar('\n');
+}
 }
 }
 }
