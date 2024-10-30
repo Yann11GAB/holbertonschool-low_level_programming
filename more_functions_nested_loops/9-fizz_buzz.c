@@ -3,7 +3,6 @@
  * main - main block
  * Return: 0
  */
-
 int main(void)
 {
 int a = 1;
@@ -25,12 +24,13 @@ else
 {
 printf("%d", a);
 }
-a++;
 if (a < 100)
 {
 printf(" ");
 }
+a++;
+}
 printf("\n");
 return (0);
 }
-}
+
