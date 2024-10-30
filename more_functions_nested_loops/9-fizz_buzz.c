@@ -4,6 +4,7 @@
  * main - main block
  * Return: 0
  */
+
 int main(void)
 {
 int a = 1;
@@ -20,7 +21,6 @@ printf("Buzz");
 else if (a % 3 == 0)
 {
 printf("Fizz");
-
 }
 else
 {
@@ -28,12 +28,10 @@ printf("%d", a);
 }
 a++;
 if (a < 100)
-    {
-    printf(" ");                                                                                      
-    }
-  
-
-}  
+{
+printf(" ");
+}
 printf("\n");
 return (0);
+}
 }
