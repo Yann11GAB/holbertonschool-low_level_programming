@@ -26,5 +26,5 @@ else if (k > 0)
 break;
 i++;
 }
-return (k *j);
+return (k * j);
 }
