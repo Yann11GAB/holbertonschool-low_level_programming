@@ -11,4 +11,5 @@ if (name && f)
 {
 f(name);
 }
+return;
 }
